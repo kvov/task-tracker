@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {box-sizing: border-box;}
+
+.wrapper {
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding:0;
+    margin: 0;
+    width: 336px;
+    min-height: 236px;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;    
+}
+.yellow-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+    position:fixed;
+    height: 28px;
+    width: 334px;
+    background-color: #FFDC40;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;    
+}
+
+.sort-icon {
+    text-align: right;
+    margin-right: 24px;
+    margin-bottom: 7px;
+}
+
+.sort-btn {
+    border: none;
+    background-color: white;
+}
+
+.sort-btn:focus {
+    outline: none;
+}
+
+#sort-descend {
+    fill: #C4C4C4;
+}
+
+#sort-descend:hover {
+    fill: black;
+}
+
+#sort-ascend {
+    fill: #C4C4C4;
+}
+
+#sort-ascend:hover {
+    fill: black;
+}
+
+.hidden {
+    display: none;
+}
+
+.task-field {
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 19px;
+    min-height: 38px;
+    width: 286px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0 10px 0;
+    display: flex;
+    width: 100%;
+    height: 20px;
+}
+
+.task-name {
+    border: none;
+    border-radius: 10px;
+    width: 230px;
+    height: 20px;
+    padding-bottom: 5px;
+    padding-left: 27px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.task-name:focus {
+    outline: none;
+}
+
+.remove-btn {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 4px;
+}
+    
+.remove-btn:hover {
+    background-color: #833AE0;
+}
+
+.remove-btn:focus {
+    outline: none;
+}
+
+.add-btn {
+  border: none;
+  border-radius: 30px;
+  background-color: white;
+  height: 42px; 
+  padding: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 19px;
+  width: 150px; 
+} 
+
+.add-btn:focus {
+    outline: none;
+}
