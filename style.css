@@ -95,6 +95,7 @@ li {
 }
 
 .task-name {
+    background-color: aquamarine;
     border: none;
     border-radius: 10px;
     width: 230px;
