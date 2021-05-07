@@ -95,14 +95,15 @@ li {
 }
 
 .task-name {
-    background-color: aquamarine;
+    background-color: lightblue;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 230px;
     height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding-bottom: 5px;
     padding-left: 27px;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
